@@ -7,7 +7,7 @@
     <li>Tener registro de los sectoristas.</li>
     <li>Tener registro de los cultivos.</li>
 </ul>
-<h2>Integrnates</h2>
+<h2>Integrantes</h2>
 <ul>
     <li>Benjamin Diaz Medrano</li>
     <li>Jose Luis Rivera Yarihuaman</li>
