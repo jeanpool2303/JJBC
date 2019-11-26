@@ -1,6 +1,6 @@
 -- Created by Vertabelo (http://vertabelo.com)
 -- Last modification date: 2019-10-22 14:01:08.453
-drop database jjbc;
+
 -- tables
 -- Table: CABECERA
 create database JJBC
@@ -35,8 +35,7 @@ CREATE TABLE CULTIVO_SECTOR (
 CREATE TABLE DETALLE (
     IDDET int NOT NULL COMMENT 'Identificador del detalle',
     CULT varchar(20) NULL COMMENT 'Identificador del cultivo.',
-    SUPR varchar(50) NULL COMMENT 'Tipo de superficie del cultivo
-',
+    SUPR varchar(50) NULL COMMENT 'Tipo de superficie del cultivo',
     PROD char(50) NULL COMMENT 'Produccion del cultivo.',
     PRECHA char(30) NULL COMMENT 'Producción realizada en el mes anterior',
     FECEST date NULL COMMENT 'Fecha  estimada de entrega de producto.',
@@ -46,15 +45,14 @@ CREATE TABLE DETALLE (
 ) COMMENT 'En esta tabla se imprimirán los datos e información de los cultivos';
 
 -- Table: PERSONAS
-CREATE TABLE PERSONAS (
+CREATE TABLE PERSONA (
     IDPER char(10) NOT NULL COMMENT 'Identificador de cada persona.',
-    NOM varchar(50) NULL COMMENT 'Nombre de la persona.',
-    APEL varchar(50) NULL COMMENT 'Apellido de la persona.',
-    DNI char(8) NULL COMMENT 'Dni de la persona',
-    TELF char(9) NOT NULL COMMENT 'telefono de la persona',
-    CORR varchar(50) NOT NULL COMMENT 'Correo de la persona.',
-    CARG varchar(50) NULL COMMENT 'Cargo que ocupa la persona
-',
+    NOMPER varchar(50) NULL COMMENT 'Nombre de la persona.',
+    APEPER varchar(50) NULL COMMENT 'Apellido de la persona.',
+    DNIPER char(8) NULL COMMENT 'Dni de la persona',
+    TELPER char(9) NOT NULL COMMENT 'telefono de la persona',
+    CORPER varchar(50) NOT NULL COMMENT 'Correo de la persona.',
+    CARPER varchar(50) NULL COMMENT 'Cargo que ocupa la persona',
     CONSTRAINT PERSONAS_pk PRIMARY KEY (IDPER)
 ) COMMENT 'Esta tabla tiene información de las personas.';
 

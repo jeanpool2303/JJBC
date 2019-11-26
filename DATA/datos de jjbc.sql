@@ -1,6 +1,6 @@
 SET FOREIGN_KEY_CHECKS=0;
 
-select * from personas;
+
 
 insert into CABECERA
 (IDCAB,DIST,ARETOL,FECHTOT,IDPER)
@@ -113,12 +113,13 @@ values
 (28,28,"ARENOSA",null,null,null,028,28),
 (29,29,"DENSA",null,null,null,029,29),
 (30,30,"ARENOSA",null,null,null,030,30);
-select * from MENU;
 
-describe personas;
 
-insert into PERSONAS
-(IDPER,NOM,APEL,DNI,TELF,CORR,CARG)
+select * from detalle; 
+describe persona;
+
+insert into PERSONA
+(IDPER,NOMPER,APEPER,DNIPER,TELPER,CORPER,CARPER)
 values
 ("p1","lUCIO CARLOS","HUAMAN TIRADO",78107695,956421387,"lucio.huaman@vallegrande.edu.pe","SECTORISTA"),
 ("p2","JOSE LUIS","RIVERA YARIHUAMAN",75107263,952975113,"jose.rivera@vallegrande.edu.pe","SECTORISTA"),
@@ -152,7 +153,7 @@ values
 ("p28","OMAR","FLORES HUAPAYA",8462579351,362951485,"omar.flores@vallegrande.edu.pe","ADMINISTRADOR"),
 ("p29","VIDAL","HUAMANI AREAS",643125798,951847625,"vidal.huamani@vallegrande.edu.pe","SECTORISTA"),
 ("p30","JEFERSON","PALOMINO FLORES",987654303,132564879,"jeferson.palomino@gmail.com.pe","ADMINISTRADOR");
-select * from PERSONAS;
+select * from PERSONA;
 
 insert into PERSONA_SECTOR
 
