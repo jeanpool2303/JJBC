@@ -1,6 +1,5 @@
 SET FOREIGN_KEY_CHECKS=0;
 
-delete from cabecera;
 select * from personas;
 
 insert into CABECERA
@@ -80,40 +79,40 @@ values
 select * from CULTIVO_SECTOR;
 
 insert into DETALLE
-(IDDET,CULT,SUPR,PROD,PRECHA,FECEST,IDCAB,IDCUSE)
+(IDDET,CULT,SUPR,PROD,PRECHA,FECEST,IDCAB,IDCULSE)
 values
-(1,1,"DENSA",01,1),
-(2,2,"ARENOSA",02,2),
-(3,3,"DENSA",03,3),
-(4,4,"DENSA",04,4),
-(5,5,"DENSA",05,5),
-(6,6,"DENSA",06,6),
-(7,7,"ARENOSA",07,7),
-(8,8,"ARENOSA",08,8),
-(9,9,"DENSA",09,9),
-(10,10,"ARENOSA",010,10),
+(1,1,"DENSA",null,null,null,01,1),
+(2,2,"ARENOSA",null,null,null,02,2),
+(3,3,"DENSA",null,null,null,03,3),
+(4,4,"DENSA",null,null,null,04,4),
+(5,5,"DENSA",null,null,null,05,5),
+(6,6,"DENSA",null,null,null,06,6),
+(7,7,"ARENOSA",null,null,null,07,7),
+(8,8,"ARENOSA",null,null,null,08,8),
+(9,9,"DENSA",null,null,null,09,9),
+(10,10,"ARENOSA",null,null,null,010,10),
 
-(11,11,"DENSA",011,11),
-(12,12,"ARENOSA",012,12),
-(13,13,"DENSA",013,13),
-(14,14,"DENSA",014,14),
-(15,15,"DENSA",015,15),
-(16,16,"DENSA",016,16),
-(17,17,"ARENOSA",017,17),
-(18,18,"ARENOSA",018,18),
-(19,19,"DENSA",019,19),
-(20,20,"ARENOSA",020,20),
+(11,11,"DENSA",null,null,null,011,11),
+(12,12,"ARENOSA",null,null,null,012,12),
+(13,13,"DENSA",null,null,null,013,13),
+(14,14,"DENSA",null,null,null,014,14),
+(15,15,"DENSA",null,null,null,015,15),
+(16,16,"DENSA",null,null,null,016,16),
+(17,17,"ARENOSA",null,null,null,017,17),
+(18,18,"ARENOSA",null,null,null,018,18),
+(19,19,"DENSA",null,null,null,019,19),
+(20,20,"ARENOSA",null,null,null,020,20),
 
-(21,21,"DENSA",021,21),
-(22,22,"ARENOSA",022,22),
-(23,23,"DENSA",023,23),
-(24,24,"DENSA",024,24),
-(25,25,"DENSA",025,25),
-(26,26,"DENSA",026,26),
-(27,27,"ARENOSA",027,27),
-(28,28,"ARENOSA",028,28),
-(29,29,"DENSA",029,29),
-(10,10,"ARENOSA",030,30);
+(21,21,"DENSA",null,null,null,021,21),
+(22,22,"ARENOSA",null,null,null,022,22),
+(23,23,"DENSA",null,null,null,023,23),
+(24,24,"DENSA",null,null,null,024,24),
+(25,25,"DENSA",null,null,null,025,25),
+(26,26,"DENSA",null,null,null,026,26),
+(27,27,"ARENOSA",null,null,null,027,27),
+(28,28,"ARENOSA",null,null,null,028,28),
+(29,29,"DENSA",null,null,null,029,29),
+(30,30,"ARENOSA",null,null,null,030,30);
 select * from MENU;
 
 describe personas;
