@@ -118,7 +118,7 @@ values
 select * from detalle; 
 describe persona;
 
-insert into PERSONA
+ insert into PERSONA
 (IDPER,NOMPER,APEPER,DNIPER,TELPER,CORPER,CARPER)
 values
 ("p1","lUCIO CARLOS","HUAMAN TIRADO",78107695,956421387,"lucio.huaman@vallegrande.edu.pe","SECTORISTA"),
@@ -132,7 +132,7 @@ values
 ("p9","DIEGO","HUAPAYA",75412869,623517489,"diego.huapaya@vallegrande.edu.pe","SECTORISTA"),
 ("p10","JEAN","SIMON ROJAS",23256847,845623597,"jean.simon@gmail.com.pe","SECTORISTA"),
 
-("p11","JUAN","HUAMAN FLORIAN",654982315,123456789,"juan.huaman@vallegrande.edu.pe","SECTORISTA"),
+("p11","JUAN","HUAMAN FLORIAN",65498231,5123456789,"juan.huaman@vallegrande.edu.pe","SECTORISTA"),
 ("p12","ENZO","PARRA",75107263,987754623,"enzo.parra@vallegrande.edu.pe","SECTORISTA"),
 ("p13","JOSE","MUNAYLLA HUPAYA",78964512,841953726,"jose.ninaylla@vallegrande.edu.pe","SECTORISTA"),
 ("p14","JOSEPH","SANCHEZ VILCA",86425195,951852365,"joseph.sanchez@gmail.com.pe","SECTORISTA"),
@@ -149,10 +149,10 @@ values
 ("p24","CESAR","YARIHUAMAN RIVERA",69857412,847623951,"cesar.yarihuaman@gmail.com.pe","SECTORISTA"),
 ("p25","ESPERANZA","ALARCON ARAUJO",21453621,874961324,"esperanza.alarcon@gmail.com.pe","SECTORISTA"),
 ("p26","SANDRA","VICENTE CASTILLO",46587912,748623548,"sandra.vicente@gmail.com.pe","SECTORISTA"),
-("p27","LUISA","ONOFRE OVIEDO",9685741232,958452165,"luisa.onofre@outloock.com","SECTORISTA"),
-("p28","OMAR","FLORES HUAPAYA",8462579351,362951485,"omar.flores@vallegrande.edu.pe","ADMINISTRADOR"),
-("p29","VIDAL","HUAMANI AREAS",643125798,951847625,"vidal.huamani@vallegrande.edu.pe","SECTORISTA"),
-("p30","JEFERSON","PALOMINO FLORES",987654303,132564879,"jeferson.palomino@gmail.com.pe","ADMINISTRADOR");
+("p27","LUISA","ONOFRE OVIEDO",96857412,958452165,"luisa.onofre@outloock.com","SECTORISTA"),
+("p28","OMAR","FLORES HUAPAYA",62579351,362951485,"omar.flores@vallegrande.edu.pe","ADMINISTRADOR"),
+("p29","VIDAL","HUAMANI AREAS",64312579,951847625,"vidal.huamani@vallegrande.edu.pe","SECTORISTA"),
+("p30","JEFERSON","PALOMINO FLORES",98765430,132564879,"jeferson.palomino@gmail.com.pe","ADMINISTRADOR");
 select * from PERSONA;
 
 insert into PERSONA_SECTOR
